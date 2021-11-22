@@ -31,10 +31,18 @@ class Bot(Client):
         bot_details = await self.get_me()
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"@{bot_details.username}  started! "
+            f"""Yahallo😋 I'm Ichigo 🥰
+ 
+You Can Download Any Romance/Shoujo Manga Using Me 💛😜
+💛My Owner is @tr0j3n 🖤
+💛If You Have Got Any Problem 'bout Me Please Contact him or @Peaceful_Wolf_016 😈
+
+💛Join @waifuNetBots To Get Help 💛
+
+💛My Owner's And Dev's Harem & From Here You Can See My Sisters: @waifuNetwork"""
         )
         self.USER, self.USER_ID = await User().start()
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("Bot stopped. Bye.")
+        self.LOGGER(__name__).info("I'm Going To Sleep Bye Byeeee💛")
